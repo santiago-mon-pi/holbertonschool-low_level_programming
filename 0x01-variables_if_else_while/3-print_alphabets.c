@@ -10,20 +10,20 @@ int main(void)
 	char Ch = 'A';
 	char ch = 'a';
 
-	while (Ch <= 'Z')
-
-
-	{
-		putchar(Ch);
-		Ch++;
-	}
-
-		while (ch <= 'z')
+	while (ch <= 'z')
 
 
 	{
 		putchar(ch);
 		ch++;
+	}
+
+		while (Ch <= 'Z')
+
+
+	{
+		putchar(Ch);
+		Ch++;
 	}
 
 	putchar('\n');
