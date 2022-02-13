@@ -1,29 +1,22 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ * main - entry point
  *
- *Return: Always 0 (Success)
- */
+ * Return: Always 0 (Success)
+ **/
 
 int main(void)
 {
+	int abc;
 
-	char ch = 'a';
-
-	while (ch <= 'z')
-
+	for (abc = 'a'; abc <= 'z'; abc++)
 	{
-
-		if (ch != 'q' && ch != 'e')
+		if ((abc != 'e') && (abc != 'q'))
 		{
-			putchar(ch);
-			ch++;
+			putchar(abc);
 		}
-
 	}
-
 	putchar('\n');
-
 	return (0);
 }
