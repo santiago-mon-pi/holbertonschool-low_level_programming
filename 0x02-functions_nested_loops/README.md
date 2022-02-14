@@ -1,0 +1,1 @@
+Excersizes to learn functions and nested loops
