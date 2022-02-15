@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
-  *
-  *
-  *
-  */
+ *print_alphabet - prints alphabet
+ */
 
 void print_alphabet(void)
 
@@ -17,8 +15,6 @@ void print_alphabet(void)
 		_putchar(ch);
 		ch++;
 	}
-
-	_putchar('\n');
-
+	_putchar ('\n');
 	return;
 }
