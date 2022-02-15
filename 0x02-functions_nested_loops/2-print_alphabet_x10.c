@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
+
+void print_alphabet_x10(void)
+
+{
+	  char abc = 'a';
+	  while (abc <= 'z')
+	  abc++;
+}
+
+int main(void)
+
+{
+	int count = '0';
+	for (count = 0, count < 10, count++)
+	{
+		_putchar(abc);
+	}
+_putchar('\n');
+return (0);
+}
