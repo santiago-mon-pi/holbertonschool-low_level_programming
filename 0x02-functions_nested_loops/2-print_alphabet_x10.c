@@ -1,26 +1,34 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *main - Entry point
- *Return: Always 0 (Success)
+ * print_alphabet_x10 - prints english alphabet ten times
  */
 
 void print_alphabet_x10(void)
 
 {
-	  char abc = 'a';
-	  while (abc <= 'z')
-	  abc++;
-}
+	int n;
+	char ch;
 
-int main(void)
+/*loop counts to ten*/
 
-{
-	int count = '0';
-	for (count = 0, count < 10, count++)
+	for (n = 0; n < 10; ++n
+		)
 	{
-		_putchar(abc);
+		/*inner loop prints alphabet from 'a' to 'z'*/
+
+		for (ch = 'a'; ch <= 'z'; ++ch)
+
+		{
+			_putchar(ch);
+
+		}
+
+		_putchar('\n');
+
 	}
-_putchar('\n');
-return (0);
+
+return;
+
 }
