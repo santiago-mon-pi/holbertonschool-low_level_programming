@@ -10,7 +10,7 @@ int _abs(int z)
 {
 	int x;
 
-	if (z > 0)
+	if (z >= 0)
 	{
 		x = z;
 	}
