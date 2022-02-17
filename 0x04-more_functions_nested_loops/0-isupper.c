@@ -9,19 +9,19 @@
 
 int _isupper(int c)
 {
-	char CH
-
+	int CH
+	int x
 		for (CH = 'A'; CH = 'Z');
 	{
 		if (c == CH)
 		{
-			c = 1;
+			x = 1;
 		}
 		else
 		{
-			c = 0;
+			x = 0;
 		}
 	}
 
-	return (c);
+	return (x);
 }
