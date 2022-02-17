@@ -3,7 +3,6 @@
 
 /**
 * print_numbers - prints numbers
-* @x: variable to print
 * Return: 0
 */
 
