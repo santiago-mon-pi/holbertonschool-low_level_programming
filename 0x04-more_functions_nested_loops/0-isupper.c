@@ -11,14 +11,16 @@ int _isupper(int c)
 {
 	int CH
 
-	for (CH = 'A'; CH <= 'Z'; CH++);
+	for (CH >= 'A'; CH <= 'Z')
 	{
 		if (c == CH)
 		{
 			c = 1;
 		}
 		else
+		{
 			c = 0;
+		}
 	}
 
 	return (c);
