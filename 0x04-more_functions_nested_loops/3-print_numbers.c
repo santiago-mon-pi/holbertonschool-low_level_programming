@@ -20,4 +20,5 @@ void print_numbers(void);
 		x++;
 	}
 	_putchar (\n);
+	return; (0)
 }
