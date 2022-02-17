@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* _isupper - checks if
-* @c: Variable that entry
+* _isdigit - checks if it's a digit
+* @c: variable to check
 * Return: 1 or 0
 */
 int _isdigit(int c)
