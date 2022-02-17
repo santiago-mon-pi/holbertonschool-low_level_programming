@@ -11,7 +11,7 @@ int _isupper(int c)
 {
 	int CH
 
-	for (CH >= 'A'; CH <= 'Z')
+	for (CH = 'A'; CH = 'Z')
 	{
 		if (c == CH)
 		{
