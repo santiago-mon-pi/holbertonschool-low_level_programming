@@ -13,7 +13,7 @@ int _isupper(int c)
 
 	for (CH = 'A'; CH <= 'Z'; CH++)
 	{
-		if (c = CH)
+		if (c == CH)
 		{
 			c = 1;
 		}
