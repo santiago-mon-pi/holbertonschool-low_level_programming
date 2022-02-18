@@ -9,7 +9,7 @@ void more_numbers(void)
 
 {
 	int n;
-	char di;
+	int di;
 
 /*loop counts to ten*/
 
