@@ -26,6 +26,4 @@ void more_numbers(void)
 
 	}
 
-return;
-
 }
