@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -18,8 +17,9 @@ void more_numbers(void)
 		for (di = 0; di <= 14; di++)
 
 		{
-			_putchar(di)
-
+			if (di > 9)
+			_putchar((di / 10) + '0');
+			_putchar((di % 10) + '0');
 		}
 
 		_putchar('\n');
