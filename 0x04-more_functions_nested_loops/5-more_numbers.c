@@ -5,7 +5,7 @@
  * more_numbers - prints digits from 0 to 14 ten times
  */
 
-void more_numbers(void);
+void more_numbers(void)
 
 {
 	int n;
@@ -18,7 +18,7 @@ void more_numbers(void);
 	{
 		/*inner loop prints digits from '0' to '14'*/
 
-		for (di = '0'; di <= '14'; ++ch)
+		for (di = '0'; di <= '14'; ++di)
 
 		{
 			_putchar(di);
