@@ -13,8 +13,7 @@ void more_numbers(void)
 
 /*loop counts to ten*/
 
-	for (n = 0; n < 10; ++n
-		)
+	for (n = 0; n < 10; ++n)
 	{
 		/*inner loop prints digits from '0' to '14'*/
 
