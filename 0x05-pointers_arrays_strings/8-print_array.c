@@ -1,10 +1,10 @@
+#include<stdio.h>
 #include "main.h"
 
 /**
- * print_array - prints n elements of an array
- * @a: first variable
- * @n: second variable
- * Return: v
+ *print_array - prints n elements of an array
+ *@a: variable
+ *@n: variable
  */
 
 void print_array(int *a, int n)
@@ -12,15 +12,17 @@ void print_array(int *a, int n)
 {
 	int x;
 
-	for (x = 0; x < (n - 1); x++)
+	for (x = 0 ; x < n; x++)
 
 	{
-		_putchar("%d, ", a[x]);
-	}
-		if (x == (n - 1))
+		printf("%d", a[x]);
+
+		if (x != n - 1)
 
 		{
-			_putchar("%d", a[n - 1]);
+			printf(", ");
 		}
-			_putchar("\n");
+
+	}
+	printf("\n");
 }
