@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- *_strcar - concatenates two strings
+ *_strcat - concatenates two strings
  *@dest: variable 1
  *@src: variable 2
+ *Return: dest
  */
 
 char *_strcat(char *dest, char *src)
-
 {
 	int i, j;
+
 	for (i = 0; dest[i] != '\0'; i++)
 
 	{
