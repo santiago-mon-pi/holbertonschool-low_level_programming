@@ -5,7 +5,6 @@
  * main - mult the 1 to the 3 number
  * @argc: number
  * @argv: Pointer array
- * @m: multiplication
  * Return: 0 to success
  */
 
