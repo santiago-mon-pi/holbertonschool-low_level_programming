@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - mult the 1 to the 3 number
+ * main - multiplies
  * @argc: number
  * @argv: Pointer array
  * Return: 0 to success
