@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * main: main function
+ *
+ */
+int main(int argc, char* argv[])
+
+{
+	printf ("argc = %d/n", argc);
+	return(0);
+}
