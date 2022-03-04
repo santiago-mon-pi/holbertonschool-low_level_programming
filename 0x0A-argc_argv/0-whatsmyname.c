@@ -1,13 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main: main function
- *
- */
-int main(int argc, char* argv[])
+ * main -  writes program name
+ * @argc: arguement count
+ * @argv: array
+ * Return: 0
+ **/
+
+int main(int argc, char *argv[])
 
 {
-	printf ("argc = %d/n", argc);
-	return(0);
+	argc = argc;
+	printf("%s\n", *argv);
+	return (0);
 }
