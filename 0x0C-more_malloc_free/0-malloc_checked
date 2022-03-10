@@ -1,8 +1,8 @@
 #include "main.h
 
 /**
- * malloc_checked - Check the # of b and create whit malloc a pointer
- * @b: size of pointer
+ * malloc_checked - Checks if malloc fails
+ * @b: size 
  *
  * Return: *pointer
  */
