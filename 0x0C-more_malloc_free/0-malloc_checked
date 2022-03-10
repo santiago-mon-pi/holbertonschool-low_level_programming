@@ -1,8 +1,9 @@
-#include "main.h
+#include "main.h"
+#include <stdlib.h>
 
 /**
  * malloc_checked - Checks if malloc fails
- * @b: size 
+ * @b: size
  *
  * Return: *pointer
  */
