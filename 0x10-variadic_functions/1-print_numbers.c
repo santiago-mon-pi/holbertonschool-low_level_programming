@@ -7,28 +7,17 @@
  * @n: n integer to print
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list l;
+	va_list numbers;
 	unsigned int i;
 
-	va_start(l, n);
+	va_start(numbers, n);
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", va_arg(l, int));
-		if (separator == NULL)
-		{
-			continue;
-		}
-		else if (i == (n - 1))
-		{
-			continue;
-		}
-		else
-		{
+		printf("%d", va_arg(numbers, unsigned int));
+		if (i < (n - 1) && separator != NULL)
 			printf("%s", separator);
-		}
 	}
+	va_end(numbers);
 	printf("\n");
-	va_end(l);
 }
